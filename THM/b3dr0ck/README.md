@@ -1,0 +1,107 @@
+7921
+
+ncat [ip target] [port]
+
+tools:
+ncat
+socat
+
+9009 < ncat
+
+help is an important command
+there's a private key and credential key used to login to 54321
+```
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAyUjv3+QgOyY9d4vF+s+0S2Ns0ZryEPchTQn6C2zsbyth2+cB
+WSIDLnTk/gGDfrRV+hUayFrUAp2H9S++1VrAHi7z31FDnw4OQTrshlF+M1SRHW2C
+OG0FDD5pvTK7Ahw8tqp0jb3X52cDX3R6wF2MFT1+6PDvzRRuhcUiZdFLyTFLGWIy
+lIjb2heSqqj0Eq7rGA4EWR4aNVDXGRb7K7ql0CQ8HnYq3qsR6UIGtcKWkrzyLCWf
+62VcjD6/XR7l/9IltW4SWnDrWVeJR7xVYp0Wc4bXnfgFN4s3oWcb+IcXFv8zoP77
+BQiQw2IqO5NRQwM6pRkyqE1Ybbct/uoP1FyqwwIDAQABAoIBAFTOIiKWnu3M4sDn
+ZvaRZEkPDt4RBkQXmzQ2K998ePEtugFIhszjA6wjHAfY42oS2NaQ5cPcYM7pSEsJ
+XsHNhnwxFBbWykLNTTw2c0j0NNOzoaBgbykO5b2O3kYUha4R75KWppzBi6G3STiC
+fuVlhIu+aSYDvUUOgrJhqGh1khSlrGA6cpj2NAtE8WLegBiMA+qlacwdBklr0uX6
+/nPZtVi9+amKWAJml2KXyNp6syLzDXzDtbge4z+RpkgFqraiXIi/786Dj/6Kvtlf
+jxNgT6t7BPyWO6mZR10uWhQFgYbIiwjwpbc9e6tp1wpzgpwJkle1r1kIkjpZqi7X
+V9C6lmECgYEA8wkXZbmDtVfKGn/HMaxWWbZTTcTI4aEHFad5MmDgIKg/Fu6uxMqb
+Yu9Ys0J5dJ90UssjNUEqCwNdR++6MyLaKnrhEFC8xt4UJTvAkBD+gWv2tJjP42NH
+f7DFOB3z16BWS8BDaJfM7ZYlaE8iBbyNdxos6LH0WyemdHVl/ndzE00CgYEA1AWy
+WnPqXZEqKHkPDNbAJJX4YcnIpTdxqA+Lkkmllpmt3adOCot9Lg6AYTAg180tP+LM
+Bsu20YfMA5gnORJ5C8bqFkOGiphQD6O23LFEqLlJvpjDevJefDW02Pc++ccKpVVB
++04WteWAFOr4+vroAGzFupow+yt55M+hTbM5jk8CgYEA7jQY9KExkEntUq+uoucQ
+83kaiPy5Dzxu3zB4P4Jn6lo9C9MBBOy4A+4nd/tNY5rtvkBPz+CAvq6bfOhgDcK5
+Ji2t7fnULO55vEymXg3qBRu2gCfOikZCS8sMYgYpe0wxiKl26ErwlmU1YNk+tXSr
+CvNi1OemYrmoEjkGsLSO23kCgYBcASjXFYvzFGY97+J3CM2SUr3Y+W4nO7sHWc+Q
+KINBqeiH0e0MqGEm1kYhZngqDTAAlBNDM61emVYPjTwgCQMb+DJmfODqTZQYZUuZ
+0xbfPKBio/nX5UrZDZkvuYLLcvMMscWTHty+DBwbd6eZib2ZSZo4EmcE52Xaw7rU
+c9ybAwKBgQDwAy7GJCyaUAdu9s6oK2C7G4eyyLehSiVddSkRCOtAfkoGYm+6gFQ5
+UanGMoilRPFilAIR7jWeYAJrVbbGDA19GQUsXJjwRphCtutUxtr866MNnFLrzTDj
+oWVSNSQUxrhlFXsgNWycpbZN/kxI9m6LqSGaZ/+UV2IsT05legVTJg==
+-----END RSA PRIVATE KEY-----
+
+-----BEGIN CERTIFICATE-----
+MIICoTCCAYkCAgTSMA0GCSqGSIb3DQEBCwUAMBQxEjAQBgNVBAMMCWxvY2FsaG9z
+dDAeFw0yMjA5MjYwNDM0MDRaFw0yMzA5MjYwNDM0MDRaMBgxFjAUBgNVBAMMDUJh
+cm5leSBSdWJibGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDJSO/f
+5CA7Jj13i8X6z7RLY2zRmvIQ9yFNCfoLbOxvK2Hb5wFZIgMudOT+AYN+tFX6FRrI
+WtQCnYf1L77VWsAeLvPfUUOfDg5BOuyGUX4zVJEdbYI4bQUMPmm9MrsCHDy2qnSN
+vdfnZwNfdHrAXYwVPX7o8O/NFG6FxSJl0UvJMUsZYjKUiNvaF5KqqPQSrusYDgRZ
+Hho1UNcZFvsruqXQJDwedireqxHpQga1wpaSvPIsJZ/rZVyMPr9dHuX/0iW1bhJa
+cOtZV4lHvFVinRZzhted+AU3izehZxv4hxcW/zOg/vsFCJDDYio7k1FDAzqlGTKo
+TVhtty3+6g/UXKrDAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAFgZytJd/tQFvAh0
+Mg0XElgrpjNDU8K6sKWBYJZO3FrBR3CcghCwBkoJ1aTMyVqbDXbEV6V/qKAyLAiT
+6/pCdeX8KrioGqnzDdAaqH1fXq9fql0MmzwY7CGsBl5mCoo0Lyzmze9chJIcf5r0
+9i0hiOxCg53QLevg98UCTxpxgN0D+d8DjTkQViTfYFdbnn5aGFpy4w6Na/6vzJlI
+ZKuhUuhpab3bJWY60BalW1OhNyTtjCxjkKAaAuLjqwOsOgwNZ+mOdrJRGd/pmR5d
+scokX5BRHhud65oKqCNTvBzp7/HYdzt4svknFzl7T8XTipaHOcF18d9y4+HN1etI
+rFWvb2o=
+-----END CERTIFICATE-----
+```
+```
+command: socat stdio ssl:10.10.76.189:54321,cert=cert.cert,key=key.key,verify=0
+user: Barney Rubble
+password: d1ad7c0a3805955a35eb260dab4180dd <-- possible encryption
+
+SSH instead of Putty(fuck you putty):
+
+ssh [user]@[target ip]
+```
+
+``first flag:
+THM{f05780f08f0eb1de65023069d0e4c90c}``
+```
+/usr/share/abc/public/ 
+certutil commands
+
+sudo certutil -a fred.csr.pem
+
+YabbaDabbaD0000!
+```
+
+```
+base32:
+JRDEWRKDGUZFUS2SINMFGV2LLBEVUVSVGQZUWSSHJZGVQVKSJJJUYRSXKZJTKMSPKBFECWCVKRGE
+4SSKKZKTEUSDK5HEER2YKVJFITCKLJFUMU2TLFFQU===
+
+base64:
+TEZLRUM1MlpLUkNYU1dLWElaVlU0M0tKR05NWFVSSlNMRldWUzUyT1BKQVhVVExOSkpWVTJSQ1dO
+QkdYVVJUTEpaS0ZTU1lLCg==
+
+decoded: LFKEC52ZKRCXSWKXIZVU43KJGNMXURJSLFWVS52OPJAXUTLNJJVU2RCWNBGXURTLJZKFSSYK
+
+a7c27206b33c24f4c8de67cba3c9fb6c
+
+2e60ac76dfd0a395ad2ac620268e93a6
+40e96ac7d49b30b60412b21419ec79e1
+
+a00a12aad6b7c16bf07032bd05a31d56
+flintstonesvitamins
+
+GJSTMMDBMM3TMZDGMQYGCMZZGVQWIMTBMM3DEMBSGY4GKOJTME3A====
+```
+
+moral of the lesson:
+test everything including the sudo -l and research the commands
+take the hints, take every HINTS.
+
+use help command if needed.
