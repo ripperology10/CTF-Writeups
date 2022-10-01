@@ -109,3 +109,8 @@ https://portswigger.net/web-security/request-smuggling
 http://projects.webappsec.org/w/page/13246929/HTTP%20Request%20Splitting
 
 
+```Proof Of Concept(PoC):
+Flag: HTB{w3lc0m3_t0_th3_p1p3_dr34m}```
+![logo](Capture.jpg)
+![logo](Capture2.png)
+![logo](unkown.png)
