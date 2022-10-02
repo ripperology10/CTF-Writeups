@@ -87,6 +87,13 @@ Request Splitting, as what it says in the name is the ability to send 2 request 
 sensitive data.
 ```
 
+The difference between SSRF and Request Splitting is that:                                                                                                   
+```
+1) SSRF simply uses a vulnerable parameter that uses specified url to send request to that url and retrieve it back to the client browser.
+2) Request Splitting uses a content-length payload on a vulnerable parameter that would get executed and then send another request with the content-length
+payload.
+```
+
 Explanation of the source code:
 ```
 the endpoint was found from the files downloaded, provided by the HTB(weather App).
