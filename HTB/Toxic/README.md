@@ -3,6 +3,9 @@ base64 encode
 
 base64 of PHP code and see if it injects
 
+write a PHP code that retrieves the access.log, use the user agent to poison the log in order
+to inject a command.
+
 log poisoning < path traversal > user agent manipulation
 
 flag_b5nvv
