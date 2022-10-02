@@ -133,4 +133,4 @@ Flag: HTB{w3lc0m3_t0_th3_p1p3_dr34m}
 ```
 ![logo](Capture.jpg)
 ![logo](Capture2.png)
-![logo](unkown.png)
+![logo](unknown.png)
