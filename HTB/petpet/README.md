@@ -22,3 +22,6 @@ mark /OutputFile (%pipe%cat flag > /app/application/static/petpets/pwn.txt) curr
 ```
 
 pwn.png
+
+This room is about steganography on image and see if a script will accidentally read the malicious code injected to the picture.                                 
+https://www.bleepingcomputer.com/news/security/hacking-group-hides-backdoor-malware-inside-windows-logo-image/?fbclid=IwAR1L7UBtRfCebWTEHFd7Znah2Np9pzOAZzDJOV26RVpZNasyg2tKhJLAryU
