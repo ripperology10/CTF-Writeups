@@ -2,7 +2,7 @@ XS Leaks
 
 a class of vulnerabilities that uses attacker website that then uses
 the intended website to gain information by letting it get open
-by the target.
+by the target(including a pupeteer itself)
 
 Pupeteer
 
